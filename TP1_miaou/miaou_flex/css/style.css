@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@media screen and (max-width: 900px) {
+ .mon {
+    width: 100%;
+ }
+}
+img {
+    width: 100%;
+}
+body {
+    font-family: "Shadows Into Light", cursive;
+}
+main {
+    background-color: #2a347b;
+    width: 50%;
+    margin: auto;
+    
+}
+.gato {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #ffff;
+}
+.chat {
+    text-align: center;
+    font-size: 50px;
+    color: #ffff;
+}
+
+@media screen and (max-width: 460px) {
+    
+}
