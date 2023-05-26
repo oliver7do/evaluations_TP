@@ -1,0 +1,67 @@
+body {
+    background-color: #ffff;
+}
+#content{
+    width: 1024px;
+    margin: auto;
+}
+header {
+    
+    /* margin-top: 8%; */
+}
+.city {
+    text-align: center;
+    color: maroon;
+    margin-top: 100px;
+}
+.bilan {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;   
+}
+.salle {
+    font-family: URW Chancery L, cursive;
+    font-style: italic;
+    display: flex;
+    
+}
+nav {
+    /* text-align: center;
+    justify-content: center; */
+}
+ul>li {
+    margin: 0px 20px;
+}
+li {
+    list-style-type: none;
+}
+/* .assi {
+    display: flex;
+} */
+.assiette {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    margin-right: 60%;
+}
+.translate {
+    translate: -150px -300px;
+}
+.linha {
+   
+    margin-left: 50%;
+    display: block;
+    font-style: italic;
+    /* padding: -50%; */
+}
+h4 {
+    content: "";
+    /*This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. / */
+    width: 60%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+    margin-right: 0%;
+}
