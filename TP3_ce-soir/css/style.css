@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width:100%;
+}
+/* pour initialiser toutes les  balises sut tous les nagigateurs */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure,figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+    /* vertical-align: baseline; */
+    /* text-align: center; */
+}
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+body{
+    font-family: 'Caveat Brush', cursive;
+}
+header {
+    background-image:url("../consignes/img/back.png");
+    padding-bottom: 10px;
+
+}
+.asperge{
+/* transform: scaleX(-1); on peut utiliser aussi scaleX avec valeur -1 pour ne pas augmenter la taille et juste changer le sens de l'image*/
+transform:rotateY(180deg);/*transformer l'image en rotation sur l'axe Y de 180 degre*/
+}
+h2 {
+    font-size: 30px;
+    margin-left: 18px;
+}
+ul {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+.cerf {
+    height: 290px;
+    margin-top: 100px; 
+}
+li {
+            text-decoration: none;
+}
+a{
+    color: black;
+}
+.triangle {
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    border-top: 120px solid rgba(229, 63, 111, 0.7);
+    border-left: 120px solid transparent;
+    position: relative;
+   left: 520px; 
+    bottom: 134px;
+}
+.fleche {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-right: 0.3em solid #E53F6F;
+    border-top: 0.3em solid #E53F6F;
+    transform: rotate(125deg) skewY(20deg);
+    margin-left: 440px;
+}
+
+
+.premier {
+    display: flex;
+}
+.asperge {
+    /* width: 1550px;
+        height: 1500px; */
+}
+.deuxiem {
+    display: flex;
+}
+.troixiem {
+display: flex;
+}
+.catriem {
+display: flex;
+}
+
+
+
+
+
+
+
+
+.one {
+    margin-right: 35px;
+}
+.two {
+    margin-right: 35px;
+}
+.three {
+        margin-right: 35px;
+    }
+.foor {
+        margin-right: 20px;
+    }
+
+
+
+
+footer {
+    background-image:url("../consignes/img/motif.jpg") ;
+    padding-bottom: 100px;
+}
