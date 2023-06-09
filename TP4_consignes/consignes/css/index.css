@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/fond.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header :first-child{
+    width: 80px;
+    height: 80px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo1 {
+    color: #ff71c7;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;   
+}
+.blue{ 
+    color: #54d2f3;
+}
+.part2 {
+    display: flex;
+    justify-content: space-between;
+}
+.services {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.robe {
+    display: flex;
+    justify-content:space-evenly;
+}
+.chemise
