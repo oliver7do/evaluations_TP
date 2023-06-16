@@ -18,18 +18,82 @@ vertical-align: baseline;
 }
 *{
     box-sizing: border-box;
-gvbsdfgbsdfdfbdfbdfbdfbfbdxfbdfb
+}
+body {
+    background-color: white;
+}
+.container {
+    background-color: black;
+    width: 70%;
+    margin: auto;
 }
 /*************** HEADER ***************/
+header {
+    background-image: url(../img/eggs.jpg);
+    height: 612px;
+    width: 1420px;
+    margin-left: 28px;  
+}
 
+.logo {
+    color: #ffff;
+    margin-right: 450px;
+}
+a {
+    text-decoration:none;
+    color: #ffff;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    margin-left: 50px;
+    justify-content: end;
+}
+.make {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.welcome {
+    margin-left: 42%;
+    margin-top: 50px;
+    color: #ffff;
+    align-items: center;
+}
 /*************** FIN HEADER ***************/
-
+/*cores*/
+.amarelo {
+    color: #e88c01;
+}
+.branco {
+    color: #ffff;
+}
 /*************** NAV ***************/
-
+.container1 {
+    width: 50%;
+        margin: auto;
+}
+.discover {
+    display: flex;
+    justify-content:space-between
+}
+.menu {
+    justify-content: center;
+}
 /*************** FIN NAV ***************
 
 /*************** MAIN ***************/
-
+.container2 {
+    width: 60%;
+        margin: auto;
+}
+.container3 {
+    width: 50%;
+    margin: auto;
+}
 /*************** FIN MAIN ***************/
 
 /*************** ASIDE LEFT ***************/
