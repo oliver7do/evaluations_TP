@@ -25,10 +25,18 @@ header {
     background-image: url(../consignes/img/dinosaure.jpg);
     width: 100%;
     height: 1000px;
-    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin-bottom: 60px;
 }
-
+header nav ul li:hover {
+    background: white;
+    padding: 15px 35px;
+    transition: 0.5s;
+    border-top: 2px solid green;
+}
 @font-face {
     font-family: semibold;
     src: url(../font/WorkSans-SemiBold.ttf);
@@ -46,40 +54,271 @@ a {
     text-decoration: none;
     color: #ffff;
    
-}/*  fim da primeira div */
+}
+.bot {
+  background-color: #1C5F81;
+  padding: 11px;
+
+}
+/*  fim da primeira div */
 /* primeiro logo */
 .dino {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 /* Final do primeiro logo */
 
 /* Primeiro Container */
 .container {
-    width: 40%;
+    width: 70%;
         margin: auto;
 }
 .lott {
    font-size: 52px;
    font-family: semibold;
 }
-
+.jura {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.voyage {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-right: 100px;
+}
+.botto {
+    border: 1px solid #0c0b0b;
+     border-radius: 1px;
+     background-color: #1C5F81;
+     color: #f6f6f8;
+     width: 230px;
+     margin-left: 34%;
+     margin-top: 60px;
+     text-align: center;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+}
 /* Fim do primeiro container */
+/* segundo container */
 
+.container1 {
+    width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+ } 
 
+.bottoo{
+    border: 1px solid #0c0b0b;
+     border-radius: 1px;
+     background-color: #1C5F81;
+     color: #f6f6f8;
+     width: 230px;
+     margin-top: 40px;
+     text-align: center;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.tari {
+   display: flex;
+}
+.tar {
+    width: 3967px;
+ }
 
+.hor {
+    display: flex;
+    margin-top: 5%;
+ }
+ .veni {
+    width: 3900px;
+ }
+.mapa iframe {
+    width: 620px;
+    box-shadow: 0 0 3px #999;
+    margin-left: 195px;
+ }
+.parte {
+    margin-top: 100px;
+    text-align: center;
+ }
 
-
-
-
-
-
-
-@media (max-width: 1440px) {
+ .ico {
+    display: flex;
+    justify-content: space-between;
+ }
+ .icoo {
+  
+ }
+ .icooo {
     
+ }
+ .icoooo {
+    
+ }
+ .icooooo {
+    
+ }
+
+/* Fim do segundo container */
+/* Começo do Footer */
+.foot {
+    background-color: #0c0b0b;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+ }
+ .foot ul {
+    display: block;
+    background-color: #0c0b0b;
+    margin-top: 50px;
+ }
+ .dinii{
+   margin-top: 60px;
+ }
+/* Fim do Footer */
+
+
+
+
+
+
+
+
+@media(max-width: 1670px) {
+    section#section3 {
+        text-align: center;
+    }
+
+    header {
+        height: 100%;
+    }
+
+    section#section3 div:last-child {
+        margin-top: 40px;
+    }
+
+    section#section3 div:first-child p:nth-child(6) {
+        margin: auto;
+    }
 }
 
-@media (max-width: 960px) {}
-
-@media (max-width: 760px) {
+@media(max-width:1070px) {
+    header nav ul {
+        width: 100%;
+        margin: auto;
     }
+
+    header nav ul li a {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 900px) {
+    header {
+        height: 400px;
+    }
+
+    header div.jurrasic_world {
+        align-items: center;
+        height: 100%;
+    }
+
+    header div.jurrasic_world>div {
+        width: 300px;
+        height: 300px;
+    }
+
+    header div.jurrasic_world img {
+        height: 100%;
+    }
+
+}
+
+@media(max-width:960px) {
+    header nav:hover {
+        height: 150px;
+    }
+
+    header nav ul>li:not(.deroulant) {
+        display: none;
+    }
+
+    header nav ul>li.deroulant:hover,
+    header nav ul>li.deroulant:hover>ul,
+    header nav ul>li.deroulant:hover>ul>li {
+        display: block;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    header nav ul>li.deroulant:hover>ul,
+    header nav ul>li.deroulant:hover>ul>li {
+        height: 100%;
+    }
+
+    header nav ul>li.deroulant:hover {
+        padding-top: 50px;
+    }
+
+    header nav ul>li.deroulant:hover:first-child{
+        margin-top: 50px;
+    }
+
+    header nav ul>li.deroulant:hover>a {
+        color: white;
+        padding: 0;
+    }
+
+    header nav ul>li.deroulant:hover>ul>li>a {
+        font-size: 13px;
+        padding: 0;
+        color: white;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer div {
+        text-align: center;
+    }
+
+
+    footer div:last-child{
+        width: 200px;
+        margin: 60px auto 0 auto;
+    }
+    footer div:last-child>img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 640px) {
+    main>section {
+        width: 100%;
+    }
+
+    main>section#section1>p {
+        width: 500px;
+        margin: 20px auto;
+    }
+
+    main>section#section4 {
+        width: 100%;
+    }
+
+    header nav ul li:hover a {
+        color: #1C5F81;
+        padding: 15px 20px;
+        transition: 0.5s;
+    }
+
+    header nav ul li:hover {
+        background: white;
+        padding: 15px 20px;
+        transition: 0.5s;
+        border-top: 2px solid green;
+    }
+}
